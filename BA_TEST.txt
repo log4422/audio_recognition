@@ -1,0 +1,77 @@
+%%Lukas Götz, Bachelorarbeit
+
+
+
+
+
+%%Einstellungen bzgl. Format
+\documentclass[a4paper,11pt]{scrartcl}	%Dokumentformat, Schriftgröße, Artikel
+\usepackage[utf8]{inputenc}				%Umlaute
+\usepackage[german]{babel}				%Alte deutsche Rechtschreibung
+\usepackage[T1]{fontenc}				%Einstellung Schriftart, Trennung von Umlausten
+\usepackage{amsmath}					%Zusätzliche mathematische Umgebung
+\usepackage{amssymb}					%Zusätzliche mathematische Symbole
+\usepackage{amsfonts}					%Zusätzliche mathematische Darstellung
+\usepackage{graphicx}					%Standartpaket zum Einbinden von Bildern
+\usepackage{fancyhdr}					%Seiten schöner gestalten
+\usepackage{tcolorbox}					%Toolbox für Boxen/Graphiken
+\usepackage[onehalfspacing]{setspace}	%Zeilenabstand definieren
+\bibliographystyle{abbrvdin} 			%Bibliothekstyle definieren
+\pagenumbering{arabic}					%Seitennummerierung mit arab. Ziffern
+\usepackage[left=3cm,right=2.5cm,top=3cm,bottom=3cm]{geometry}		%Seitenränder einstellen
+
+%% Kopf und Fußzeile definieren
+\pagestyle{fancy}
+\lhead{Spracherkennung in Python}
+\chead{}
+\rhead{10.01.2019}
+\lfoot{}
+\cfoot{\thepage}
+\rfoot{}
+\author{Lukas Götz}
+\title{Spracherkennung in Python}
+\date{10.01.2019}
+%%
+
+
+
+
+
+
+%% Beginn des Dokuments
+\begin{document}
+
+
+%% Deckblatt
+\maketitle
+\thispagestyle{empty}
+Test
+\newpage
+%%
+
+
+%% Inhaltsverzeichnis
+\thispagestyle{empty}
+\tableofcontents
+\newpage
+%% 
+
+
+%% Beginn der Arbeit
+\section{Einleitung}
+
+"Hallo Google". Mit diesen Worten beginnt ein mittlerweile alltägliches Gespräch zwischen Mensch und Maschine. Genauer gesagt zwischen einem Mensch und der "Künstlichen Intelligenz"\, von Google. Was vor wenigen Jahren noch unvorstellbar und technisch nicht realisierbar war ist heute eine Selbstverständlichkeit, die viele in ihrem Alltag nicht mehr missen möchten.
+
+\subsection{Formeln}
+Formel1 hjhj
+
+\subsection{Definitionen}
+Wurstbrot
+
+\section{Tensorflow}
+\subsection{Phyton}
+Es handelt sich hierbei um eine Programmiersprache.
+
+\end{document}
+
+
